@@ -1,0 +1,22 @@
+.profile {
+    width: 100%;
+    text-align: center;
+    color: #333;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    h2 {
+        margin: 10px 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,21 @@
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    .button {
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &.facebook {
+            background-color: #3b5998;
+        }
+
+        &.twitter {
+            background-color: #1da1f2;
+        }
+    }
+}
