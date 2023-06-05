@@ -9,17 +9,20 @@ import { groomData } from './data/groomData';
 import { addressData } from './data/addressData';
 
 const App = () => {
-  return (
-    <div className="app">
-      <div className="profile-section">
-        <Profile data={brideData} />
-        <Profile data={groomData} />
+    return (
+      <div className="wedding-card">
+          <div className="app">
+            <div className="profile-section">
+              <Profile data={brideData} />
+              <div className="profile-line"></div>
+              <Profile data={groomData} />
+            </div>
+            <Countdown />
+            <Address  />
+            <ShareButtons />
+            
+          </div>
       </div>
-      <Countdown />
-      <Address />
-      <ShareButtons />
-    </div>
-  );
-};
-
+    );
+  };
 export default App;
