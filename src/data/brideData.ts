@@ -1,10 +1,10 @@
 export const brideData = {
-    name: "Bride's Name",
+    name: "নাজমুন নাহার সোনালী",
     occupation: "Bride's Occupation",
     facebookId: "Bride's Facebook ID",
     twitterId: "Bride's Twitter ID",
-    fatherName: "Bride's Father's Name",
-    motherName: "Bride's Mother's Name",
-    details: "Bride's Additional Details",
+    fatherName: "মোঃ মজিবুল হক",
+    motherName: "মার্জিয়া হক",
+    details: "বহেরাতলা, মঠবাড়িয়া, পিরোজপুর।",
     image: `/images/bride.jpg`
 };

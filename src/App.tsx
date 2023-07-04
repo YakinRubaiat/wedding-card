@@ -12,6 +12,7 @@ const App = () => {
     return (
       <div className="wedding-card">
           <div className="app">
+            <h1>শুভ বিবাহ</h1>
             <div className="profile-section">
               <Profile data={brideData} />
               <div className="profile-line"></div>

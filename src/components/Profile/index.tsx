@@ -19,12 +19,12 @@ const Profile = ({ data }: ProfileProps) => {
         <div className="profile">
             <img className="profile-image" src={data.image} alt={data.name} />
             <h2>{data.name}</h2>
-            <p>{data.occupation}</p>
+            {/* <p>{data.occupation}</p>
             <p>Facebook: {data.facebookId}</p>
-            <p>Twitter: {data.twitterId}</p>
-            <p>Father: {data.fatherName}</p>
-            <p>Mother: {data.motherName}</p>
-            <p>{data.details}</p>
+            <p>Twitter: {data.twitterId}</p> */}
+            <p>বাবা: {data.fatherName}</p>
+            <p>মা: {data.motherName}</p>
+            <p>ঠিকানা: {data.details}</p>
         </div>
     );
 };
